@@ -35,4 +35,20 @@
   .nav-list a:hover {
     background: var(--main-blue);
   }
+
+  #welcome-section {
+    height: 100%;
+
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }
   
